@@ -6,3 +6,4 @@ Big thanks for this great tool goes to https://www.emdb.eu
 
 ![image](https://github.com/v1rusnl/EMDB-Default-Skin-Mod/assets/18641204/c85ae556-99d3-4848-a1d8-2011441bb440)
 
+Put "DefaultSkinMod" in %EMDBInstallDir%\templates.
