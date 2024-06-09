@@ -2,7 +2,7 @@ German Mod variation of the EMDB default skin.
 
 Big thanks for this great tool goes to https://www.emdb.eu
 
-![image](https://github.com/v1rusnl/EMDB-Default-Skin-Mod/assets/18641204/d8314cef-c206-4b10-9995-564bf43c65d1)
+![image](https://github.com/v1rusnl/EMDB-Default-Skin-Mod/assets/18641204/59175b77-6861-46fe-89b7-16c50f3b86c8)
 
-![image](https://github.com/v1rusnl/EMDB-Default-Skin-Mod/assets/18641204/6374fa45-e542-4df4-b4dc-302994bb6da8)
+![image](https://github.com/v1rusnl/EMDB-Default-Skin-Mod/assets/18641204/c85ae556-99d3-4848-a1d8-2011441bb440)
 
