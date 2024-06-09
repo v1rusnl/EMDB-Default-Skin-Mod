@@ -1,10 +1,15 @@
+# Overview
 German Mod variation of the EMDB default skin.
 
 Big thanks for this great tool goes to https://www.emdb.eu
 
-Usage:
+# Usage
 Put "DefaultSkinMod" folder in %EMDBInstallDir%\templates.
 
+# Demo
+https://v1rusnl.github.io
+
+# Screenshots
 ![image](https://github.com/v1rusnl/EMDB-Default-Skin-Mod/assets/18641204/6dce0da9-3853-429b-969a-7669e559c7dc)
 
 
