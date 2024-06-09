@@ -8,6 +8,7 @@ Put "DefaultSkinMod" folder in %EMDBInstallDir%\templates.
 ![image](https://github.com/v1rusnl/EMDB-Default-Skin-Mod/assets/18641204/6dce0da9-3853-429b-969a-7669e559c7dc)
 
 
-![image](https://github.com/v1rusnl/EMDB-Default-Skin-Mod/assets/18641204/c85ae556-99d3-4848-a1d8-2011441bb440)
+![image](https://github.com/v1rusnl/EMDB-Default-Skin-Mod/assets/18641204/cee64770-3e7a-4bf6-b59f-5b1f3f232c4c)
+
 
 
