@@ -1,0 +1,117 @@
+#VERSION_START#2#VERSION_END#
+
+#THUMBNAIL_TEMPLATE_START#
+<li class="thumbnail">
+    <a href="#RELATIVE_PATH#movies/#INDEX#.html">
+        <div class="shiny-container" >
+            <img src="#COVER#" alt="poster #TITLE#" height="200">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            #TITLE#
+        </div>
+    </a>
+</li>
+#THUMBNAIL_TEMPLATE_END#
+
+#LIST_TEMPLATE_START#
+<li><a href="#RELATIVE_PATH#movies/#INDEX#.html">#TITLE#</a></li>
+#LIST_TEMPLATE_END#
+
+#NUMBERED_LIST_TEMPLATE_START#
+<li><a href="#RELATIVE_PATH#movies/#INDEX#.html">#NUMBER#.&nbsp;&nbsp;#TITLE#</a></li>
+#NUMBERED_LIST_TEMPLATE_END#
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EMDB</title>
+    <link href="emdb.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div id="top" class="container">
+        <div class="title">
+            Best Movies and TV Shows of All Time
+            <div class="link-buttons grayscale">
+                <a href="https://www.themoviedb.org" class="link-button"><img src="img/themoviedb.png"></a>
+                <a href="https://www.imdb.com" class="link-button"><img src="img/imdb.png"></a>
+                <a href="https://www.rottentomatoes.com" class="link-button"><img src="img/tomatoes.png"></a>
+            </div>
+        </div>
+        <div class="header-buttons">
+            #LATEST_ADDITIONS_LINK_START#<a href="#latest-additions" class="button-darkgray">#LATEST_ADDITIONS_TRANSLATION#</a>#LATEST_ADDITIONS_LINK_END#
+            #ALL_MOVIES_LINK_START#<a href="#all-movies" class="button-darkgray">#ALL_MOVIES_TRANSLATION#</a>#ALL_MOVIES_LINK_END#
+            #MENU_LETTER_TEMPLATE_BEGIN#<a href="#movies-#LETTER_LOWERCASE#" class="button-darkgray">#LETTER_UPPERCASE#</a>#MENU_LETTER_TEMPLATE_END#
+            #MENU_0_BEGIN#<a href="#movies-09" class="button-darkgray">0..9</a>#MENU_0_END#
+            #MENU_@_BEGIN#<a href="#movies-other" class="button-darkgray">#OTHER_TRANSLATION#</a>#MENU_@_END#
+            #MENU_3D_BEGIN#<a href="#movies-3d" class="button-darkgray">#3D_TRANSLATION#</a>#MENU_3D_END#
+            #MENU_GENRES_BEGIN#<a href="./genres/genres.html" class="button-darkgray">#GENRES_TRANSLATION#</a>#MENU_GENRES_END#
+            #MENU_YEARS_BEGIN#<a href="./years.html" class="button-darkgray">#YEARS_TRANSLATION#</a>#MENU_YEARS_END#
+            #MENU_COLLECTIONS_BEGIN#<a href="./collections/collections.html" class="button-darkgray">#COLLECTIONS_TRANSLATION#</a>#MENU_COLLECTIONS_END#
+        </div>
+        #LATEST_ADDITIONS_START#
+        <div class="header-green" id="latest-additions">
+            #LATEST_ADDITIONS_TRANSLATION#
+        </div>
+        <div class="bar"></div>
+        <ul class="link-gray movie-list">
+            #LATEST_ADDITIONS#
+        </ul>
+        #LATEST_ADDITIONS_END#
+
+        #YEAR_TEMPLATE_START#
+        &nbsp;&nbsp;(#YEAR#)
+        #YEAR_TEMPLATE_END#
+
+        #ALL_MOVIES_START#
+        <div class="header-green" id="all-movies">
+            #ALL_MOVIES_TRANSLATION#
+        </div>
+        <div class="bar">
+            <a href="#top" class="phone-home">Seitenanfang</a>
+        </div>
+        <ul class="link-gray movie-list">
+            #MOVIES_ALL#
+        </ul>
+        #ALL_MOVIES_END#
+
+        #MOVIES_LETTER_TEMPLATE_BEGIN#
+        #MOVIES_#LETTER_UPPERCASE#_BEGIN#
+        <div class="header-green" id="movies-#LETTER_LOWERCASE#">
+            #LETTER_UPPERCASE#
+        </div>
+        <div class="bar">
+            <a href="#top" class="phone-home">Seitenanfang</a>
+        </div>
+        <ul class="link-gray movie-list"></ul>
+        #MOVIES_#LETTER_UPPERCASE#_END#
+        #MOVIES_LETTER_TEMPLATE_END#
+
+        #MOVIES_0_BEGIN#
+        <div class="header-green" id="movies-09">0..9</div>
+        <div class="bar">
+            <a href="#top" class="phone-home">Seitenanfang</a>
+        </div>
+        <ul class="link-gray movie-list"></ul>
+        #MOVIES_0_END#
+
+        #MOVIES_@_BEGIN#
+        <div class="header-green" id="movies-other">
+            #OTHER_TRANSLATION#
+        </div>
+        <div class="bar">
+            <a href="#top" class="phone-home">Seitenanfang</a>
+        </div>
+        <ul class="link-gray movie-list"></ul>
+        #MOVIES_@_END#
+
+        <div class="footer">
+            <p>#COPYRIGHT_TRANSLATION#</p>
+		    #COUNTER#
+        </div>
+    </div>
+	
+</body>
+</html>
+

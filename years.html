@@ -1,0 +1,47 @@
+#YEAR_BUTTON_TEMPLATE_START#
+<a href="##YEAR_NUMBER#" class="button-darkgray">#YEAR_NUMBER#</a>
+#YEAR_BUTTON_TEMPLATE_END#
+
+#YEAR_SECTION_TEMPLATE_BEGIN#
+<div class="header-green" id="#YEAR#">
+    #YEAR#
+</div>
+<div class="bar">
+    <a href="#top" class="phone-home">HOME</a>
+</div>
+<ul class="link-gray movie-list"></ul>
+#YEAR_SECTION_TEMPLATE_END#
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>#PAGE_TITLE#</title>
+    <link href="emdb.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div id="top" class="container">
+        <div class="navigation-bar">
+            <div class="left">
+                <a href="index.html" class="button-darkgray">Startseite</a>
+                <div class="arrow">&gt;</div>
+                <a href="years.html" class="button-darkgray">#YEARS_TRANSLATION#</a>
+            </div>
+        </div>
+
+        <div class="bar"></div>
+        <div class="title">#YEARS_TITLE#</div>
+
+        <div class="header-buttons">
+            #YEARS_MENU#
+        </div>
+        <div>
+            #YEARS_LIST#
+        </div>
+
+        <div class="footer">
+            <p>#COPYRIGHT_TRANSLATION#</p>
+        </div>
+    </div>
+</body>
+</html>

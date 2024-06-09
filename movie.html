@@ -1,0 +1,108 @@
+#GOLD_STAR_TEMPLATE_BEGIN#
+<img class="star" src="../img/goldstar.png" alt="star" />
+#GOLD_STAR_TEMPLATE_END#
+#ORANGE_STAR_TEMPLATE_BEGIN#
+<img class="star" src="../img/orangestar.png" alt="star" />
+#ORANGE_STAR_TEMPLATE_END#
+#GRAY_STAR_TEMPLATE_BEGIN#
+<img class="star" src="../img/graystar.png" alt="star" />
+#GRAY_STAR_TEMPLATE_END#
+#TAG_TEMPLATE_BEGIN#
+<span class="tag" alt="tag">#TAG_NAME#</span>
+#TAG_TEMPLATE_END#
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>#PAGE_TITLE#</title>
+    <link href="../emdb.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <div class="navigation-bar">
+            <div class="left">
+                <a href="../index.html" class="button-darkgray">Startseite</a>
+                <div class="arrow">&gt;</div>
+                #ALL_MOVIES_LINK_START#
+                <a href="../index.html#all-movies" class="button-darkgray">#MOVIES_ALL#</a>
+                <div class="arrow">&gt;</div>
+                #ALL_MOVIES_LINK_END#
+                <a href="#LINK_CURRENT_LETTER#" class="button-darkgray">#CURRENT_LETTER#</a>
+                <div class="arrow">&gt;</div>
+                <a href="#LINK_CURRENT_MOVIE#" class="button-darkgray">#CURRENT_MOVIE#</a>
+            </div>
+            <div class="right">
+                <a href="./#PREVIOUS_MOVIE#.html" class="button-darkgray min-70 upper">#PREVIOUS_MOVIE_TRANSLATION#</a>
+                <a href="./#NEXT_MOVIE#.html" class="button-darkgray min-70 upper">#NEXT_MOVIE_TRANSLATION#</a>
+            </div>
+        </div>
+        <div class="bar"></div>
+        <div class="title">
+            #TITLE# #VERSION# #YEAR#
+            <div class="link-buttons">
+                #TRAILER_LINK#
+                #TOMATOES_LINK#
+                #IMDB_LINK#
+            </div>
+        </div>
+        <div class="tagline">#TAGLINE#</div>
+        <div class="movie-container">
+            <div class="left shiny-container">
+                <img class="poster" src="#COVER#" alt="poster #TITLE#" />
+                <div class="shiny-frame"></div>
+            </div>
+            <div class="right">
+                #IMDB_RATING_BEGIN#
+                <div class="stars-row">
+                    <div class="description"><b>#IMDB_RATING_TRANSLATION#</b></div>
+                    <div class="stars">#IMDB_RATING_STARS#</div>
+                    <div class="votes">#IMDB_RATING_TEXT#</div>
+                </div>
+                #IMDB_RATING_END#
+                #USER_RATING_BEGIN#
+                <div class="stars-row">
+                    <div class="description"><b>#USER_RATING_TRANSLATION#</b></div>
+                    <div class="stars">#USER_RATING_STARS#</div>
+                    <div class="text">#USER_RATING_TEXT#</div>
+                </div>
+                #USER_RATING_END#
+                #TAGS_BEGIN#
+                <p><b>#TAGS_TRANSLATION#</b>#TAGS#</p>
+                #TAGS_END#
+                #AKA_BEGIN#<p><b>#AKA_TRANSLATION#:</b>#ALTERNATIVE_TITLE#</p>#AKA_END#
+                <p><b>#COUNTRY_TRANSLATION#</b>#COUNTRY#, #DURATION#</p>
+                <p><b>#SPOKEN_LANGUAGES_TRANSLATION#</b>#SPOKEN_LANGUAGES#</p>
+                <p><b>#GENRES_TRANSLATION#</b>#GENRES#</p>
+                <p><b>#DIRECTOR_TRANSLATION#</b>#DIRECTOR#</p>
+                <p><b>#WRITER_TRANSLATION#</b>#WRITER#</p>
+            </div>
+        </div>
+        <div class=description>
+            <p>
+                <b>#PLOT_OUTLINE_TRANSLATION#</b><br>#PLOTOUTLINE#
+            </p>
+            <p>
+                <b>#CAST_TRANSLATION#</b><br>
+                #ACTOR_TEMPLATE_START#
+                <section class="actor-paragraph">
+                    <a class="actor-image-container" href="#ACTOR_LINK#">
+                        <div class="shiny-container">
+                            <img class="actor-image" src="#ACTOR_PHOTO#" alt="photo #ACTOR_NAME#" />
+                            <div class="shiny-frame"></div>
+                        </div>
+                    </a>
+                    <span class="actor-name">#ACTOR_NAME#</span>
+                    <span class="character-name">#ACTOR_CHARACTER#</span>
+                </section>
+                #ACTOR_TEMPLATE_END#
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>#COPYRIGHT_TRANSLATION#</p>
+        </div>
+    </div>
+
+</body>
+</html>

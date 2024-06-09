@@ -1,0 +1,45 @@
+#GENRE_BUTTON_TEMPLATE_START#
+<a href="./#GENRE#.html" class="button-darkgray">#GENRE#</a>
+#GENRE_BUTTON_TEMPLATE_END#
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>#PAGE_TITLE#</title>
+    <link href="../emdb.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+</head>
+<body>
+    <div id="top" class="container">      
+
+        <div class="navigation-bar">
+            <div class="left">
+                <a href="../index.html" class="button-darkgray">Startseite</a>
+                <div class="arrow">&gt;</div>
+                <a href="./#CURRENT_PAGE#" class="button-darkgray">#GENRES_TRANSLATION#</a>
+                <div class="arrow">&gt;</div>
+                <a href="./#CURRENT_PAGE#" class="button-darkgray">#CURRENT_GENRE#</a>
+            </div>
+        </div>
+
+        <div class="bar"></div>
+        <div class="title">#GENRES_TITLE#</div>
+
+        <div class="header-buttons">
+            #GENRES_MENU#
+        </div>
+
+        <div class="header-green">
+            #CURRENT_GENRE#
+        </div>
+        <div class="bar">
+
+        </div>
+        <ul class="link-gray movie-list"></ul>
+
+        <div class="footer">
+            <p>#COPYRIGHT_TRANSLATION#</p>
+        </div>
+    </div>
+</body>
+</html>
